@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barrio&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(48, 47, 47);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header{
+    width: 100%;
+    height: 100%;
+    background: url(./img/фон5.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* .palka1{
+    background-color: rgb(141, 141, 141);
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    top: 25px;
+    border-radius: 5px;
+    left: 30px;
+}
+.palka2{
+    background-color: rgb(141, 141, 141);
+    width: 30px;
+    height: 3px;
+    position: absolute;
+    border-radius: 5px;
+    top: 20px;
+    left: 30px;
+} */
+.col-2{
+    text-align: center;
+}
+.main1{
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    justify-content: space-around;
+}
+/* .main1 img{
+    width: 160px;
+    height: 50px;
+    display: block;
+    margin-right: 20px;
+} */
+.knopka1 p{
+    margin-top: 10px;
+}
+.knopka1{
+    width: 90px;
+    height: 30px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main2{
+    width: 100%;
+    height: 100%;
+}
+.main2 .col-2 img{
+    height: 120px;
+    width: 120px;
+}
+.knopka1:hover{
+    background-color: rgb(51, 51, 51);
+}
+.image1{
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    /* margin-top: 20px;
+    max-width: 100%; */
+}
+p{
+    color: white;
+}
+.p1{
+    color: white;
+    border-bottom: 2px solid violet;
+    border-left: 2px solid violet;
+}
+.p1:hover{
+    border-bottom: 3px solid blue;
+    border-left: 3px solid blue;
+}
+.main3{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.mask{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(97, 7, 7);
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* margin-left: 50px; */
+    transition: all 0.5s;
+}
+.mask:hover{
+    background-color: rgb(70, 6, 6);
+}
+.mask img{
+    width: 170px;
+    height: 190px;
+}
+.hulk{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(43, 53, 43); 
+    transition: all 0.5s;
+    position: relative;
+    right: 0;
+}
+.hulk img{
+    width: 120px;
+    height: 190px;
+    position: relative;
+    bottom: 20px;
+    right: 0px;
+}
+.hulk:hover{
+    background-color: rgb(37, 41, 37);
+}
+.main3 .col-8{
+    display: flex;
+    justify-content: center;
+
+}
+.knopka2{
+    font-size: 35px;
+    width: 170px;
+    height: 70px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(-50deg, rgb(43, 53, 43),rgb(97, 7, 7) );
+}
+.knopka2 p{
+    font-family: 'Anton', sans-serif;
+    color: gold;
+    margin-top: 15px;
+}
+.knopka2:hover{
+    transition: all 1s;
+    background: linear-gradient(-120deg, rgb(41, 48, 41),rgb(80, 4, 4) );
+}
+.main4{
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    justify-content:space-around;
+}
+.main4 .col-3{
+    cursor: pointer;
+    text-align: center;
+    width: 230px;
+    height: 220px;
+    background: linear-gradient(-20deg,rgb(3, 3, 56), rgb(121, 116, 116));
+}
+.main4 h2{
+    color: white;
+    font-size: 60px;
+    font-family: 'Barrio', cursive;
+}
+.main4 .col-3:hover{
+    border: 1px solid white;
+    background: linear-gradient(-20deg,rgb(9, 9, 77), rgb(110, 108, 108));
+}
+.main4 .col-3 img{
+    width: 110px;
+    height: 110px;
+}
+.sale{
+    font-family: 'Anton', sans-serif;
+    position: relative;
+    font-size: 15px;
+    bottom: 100px;
+    width: 35px;
+    height: 20px;
+    background-color: red;
+}
+.price{
+    width: 50%;
+    height: 30px;
+    position: relative;
+    top: 18px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+.buy{
+    width: 50%;
+    height: 30px;
+    position: relative;
+    top: 18px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+.buy:hover{
+    background-color: rgb(24, 24, 216);
+}
+.buy p{
+    color: red;
+    font-size: 20px;
+}
+.main5{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+}
+.main5 .col-3{
+    background-color: rgb(27, 27, 44);
+    /* margin-right: 10px; */
+    width: 300px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 20px 4px #000000; 
+    box-shadow: 0px 0px 20px 4px #000000;
+}
+.main5 img{
+    width: 40px;
+    height: 40px;
+}
+.back{
+    margin: 30px auto;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(224, 20, 20);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main5 h3{
+    color: white;
+}
+.main6{
+    width: 100%;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+.main6 h2{
+    color: white;
+    font-family: 'Barrio', cursive;
+    font-size: 60px;
+}
+.p2{
+    color: rgb(240, 122, 122);
+    font-size: 20px;
+    border-bottom: 1px solid red;
+    border-right: 1px solid red;
+}
+.kamni{
+    overflow-x: scroll;
+    display: flex;
+    width: 80%;
+}
+.kamni img{
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+.kamni .col-2{
+    margin-right: 20px;
+    width: 250px;
+    height: 200px;
+    background: linear-gradient(-20deg,rgb(3, 3, 56), rgb(121, 116, 116));
+}
+.main7{
+    height: 100%;
+    width: 90%;
+    margin: auto;
+}
+.main7 h1{
+    color: white;
+    font-size: 50px;
+}
+.block{
+    /* display: flex; */
+    height: 100%;;
+    background: linear-gradient(25deg, rgb(139, 139, 139),rgb(14, 92, 194));
+}
+.main7 img{
+    width: 280px;
+    height: 340px;
+}
+.main7 p{
+    text-align: center;
+    width: 520px;
+    font-size: 25px;
+}
+.main8{
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.main8 h5{
+    color: white;
+}
+.knopka3{
+    background-color: turquoise;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 50px;
+    border-radius: 20px;
+    margin: auto;
+    cursor: pointer;
+}
+.knopka3:hover{
+    background-color: rgb(22, 158, 145);
+    color: white;
+}
+@media screen and (max-width:480px){
+    .image1{
+        height: 40%;
+    }
+}
+@media screen and (max-width:750px){
+    .block .col-12 p{
+        font-size: 15px;
+        width: 90%;
+    }
+}
+@media screen and (max-width:770px){
+    .main8 .col-3 {
+        font-size: 15px;
+    }
+}
